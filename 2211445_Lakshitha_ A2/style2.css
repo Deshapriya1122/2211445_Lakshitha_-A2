@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+    }
+
+body{
+    background: url(Matierial/back3.jpg);
+    background-size: 120%;
+    margin-top: 20px;
+}
+    
+.Header{
+    margin-top: 20px;
+    margin-left: 90px;
+    padding:  10px;
+    width: 90%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Header ul li{
+    list-style: none;
+    display:inline;
+    margin: 0 10px;
+    font-weight: bold;
+    
+
+}
+
+.Header ul li:hover{
+    color: red;
+}
+
+
+
+.contop{
+    padding: 20rem;
+
+}
+
+.contop h1 span{
+    color:red;
+}
+
+.contop button{
+    border: 2px solid #111;
+    padding: 12px 25px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.contop button:hover{
+    background-color: #000;
+    color: rgb(193, 193, 193);
+}
+
+/* Product Section */
+
+.center-text h2{
+    color: #111;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.center-text span{
+    color: red;
+}
+
+.trending-product{
+    margin: 20px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background: rgba(248, 248, 248, 0.585);
+}
+    
+.pro{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    gap: 2rem;
+    
+}
+
+.row{
+    position: relative;
+    transition: all .40s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.product-text h5{
+    position: absolute;
+    bottom: 120px;
+    width: 80%;
+    color: #fff;
+    font-size: 13px;
+    font-weight:300;
+    font-style: italic;
+    text-align: justify;
+    background-color:  rgba(59, 57, 56, 0.382);
+    padding: 5px 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.product-text h5:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+.row img{
+    width:80%;
+    height: auto;
+    transition: all .40s;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+
+.row img:hover{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+
+.price h4{
+    color: #111;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.price p{
+    color: #151515;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+
+
+.row button{
+    position: relative;
+    border: 2px solid #111;
+    padding: 5px 12px;
+    border-radius: 25px;
+    margin-left: 150px; 
+    margin-bottom: 50px;
+}
+    
+.row button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.footer{
+
+    background-color: #000;
+    color: white;
+    font-size: smaller;
+    padding: 50px;
+    
+}
+
+.footer p{
+    font-size: 1em;
+}
+
+
+
+ 
+
+
+
